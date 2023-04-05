@@ -1,0 +1,18 @@
+{
+  "name": "ecommerse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backened/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backened/server.js",
+    "dev": "nodemon backened/server.js"
+  },
+  "author": "Anamika Saini",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
